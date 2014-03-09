@@ -58,13 +58,16 @@ cuisines_data = [
 cooks_data = [
   {
     "ratings": 4,
+    "img" : "/images/cuisines/1.jpg",
     "cuisine": "hyderabadi",
     "capacity": 1,
     "name": "Vijaya Mullur",
     "id": "vijaya_mullur"
   },
+  
   {
     "ratings": 5,
+    "img" : "/images/cuisines/2.jpg",
     "cuisine": "rajasthani",
     "capacity": 1,
     "name": "Jaya Avninder",
@@ -72,6 +75,7 @@ cooks_data = [
   },
   {
     "ratings": 4,
+    "img" : "/images/cuisines/3.jpg",
     "cuisine": "punjabi",
     "capacity": 1,
     "name": "Sashi Patil",
@@ -79,6 +83,7 @@ cooks_data = [
   },
   {
     "ratings": 2,
+    "img" : "/images/cuisines/4.jpg",
     "cuisine": "bengali",
     "capacity": 0,
     "name": "Roshan Iyer",
@@ -86,6 +91,7 @@ cooks_data = [
   },
   {
     "ratings": 4,
+    "img" : "/images/cuisines/5.jpg",
     "cuisine": "kashmiri",
     "capacity": 0,
     "name": "Jaya Bandyopadhyay",
@@ -93,6 +99,7 @@ cooks_data = [
   },
   {
     "ratings": 2,
+    "img" : "/images/cuisines/6.jpg",
     "cuisine": "malabar",
     "capacity": 3,
     "name": "Padma Korrapati",
@@ -100,6 +107,7 @@ cooks_data = [
   },
   {
     "ratings": 3,
+    "img" : "/images/cuisines/7.jpg",
     "cuisine": "gujrati",
     "capacity": 0,
     "name": "Anantha Nagarkar",
@@ -107,6 +115,7 @@ cooks_data = [
   },
   {
     "ratings": 2,
+    "img" : "/images/cuisines/8.jpg",
     "cuisine": "gujrati",
     "capacity": 2,
     "name": "Swapna Patil",
@@ -114,6 +123,7 @@ cooks_data = [
   },
   {
     "ratings": 4,
+    "img" : "/images/cuisines/9.jpg",
     "cuisine": "malabar",
     "capacity": 3,
     "name": "Kamala Singh",
@@ -121,6 +131,7 @@ cooks_data = [
   },
   {
     "ratings": 3,
+    "img" : "/images/cuisines/10.jpg",
     "cuisine": "kashmiri",
     "capacity": 4,
     "name": "Kamala Nibhanupudi",
@@ -128,6 +139,7 @@ cooks_data = [
   },
   {
     "ratings": 1,
+    "img" : "/images/cuisines/11.jpg",
     "cuisine": "rajasthani",
     "capacity": 2,
     "name": "Kamala Nibhanupudi",
@@ -135,6 +147,7 @@ cooks_data = [
   },
   {
     "ratings": 1,
+    "img" : "/images/cuisines/12.jpg",
     "cuisine": "rajasthani",
     "capacity": 4,
     "name": "Padma Bhattacharya",
@@ -142,6 +155,7 @@ cooks_data = [
   },
   {
     "ratings": 3,
+    "img" : "/images/cuisines/13.jpg",
     "cuisine": "gujrati",
     "capacity": 3,
     "name": "Chandra Chaudhri",
@@ -149,6 +163,7 @@ cooks_data = [
   },
   {
     "ratings": 5,
+    "img" : "/images/cuisines/14.jpg",
     "cuisine": "bengali",
     "capacity": 0,
     "name": "Madhu Patil",
@@ -156,6 +171,7 @@ cooks_data = [
   },
   {
     "ratings": 4,
+    "img" : "/images/cuisines/15.jpg",
     "cuisine": "bengali",
     "capacity": 3,
     "name": "Padma Jain",
@@ -163,6 +179,7 @@ cooks_data = [
   },
   {
     "ratings": 1,
+    "img" : "/images/cuisines/16.jpg",
     "cuisine": "gujrati",
     "capacity": 4,
     "name": "Nitya Bhattacharya",
@@ -170,6 +187,7 @@ cooks_data = [
   },
   {
     "ratings": 5,
+    "img" : "/images/cuisines/1.jpg",
     "cuisine": "rajasthani",
     "capacity": 4,
     "name": "Ananta Misra",
@@ -177,6 +195,7 @@ cooks_data = [
   },
   {
     "ratings": 3,
+    "img" : "/images/cuisines/2.jpg",
     "cuisine": "gujrati",
     "capacity": 2,
     "name": "Madhur Bhattacharya",
@@ -184,6 +203,7 @@ cooks_data = [
   },
   {
     "ratings": 2,
+    "img" : "/images/cuisines/3.jpg",
     "cuisine": "goan",
     "capacity": 1,
     "name": "Anantha Bandyopadhyay",
@@ -191,6 +211,7 @@ cooks_data = [
   },
   {
     "ratings": 4,
+    "img" : "/images/cuisines/4.jpg",
     "cuisine": "punjabi",
     "capacity": 2,
     "name": "Madhur Singh",
@@ -198,6 +219,7 @@ cooks_data = [
   },
   {
     "ratings": 4,
+    "img" : "/images/cuisines/5.jpg",
     "cuisine": "gujrati",
     "capacity": 0,
     "name": "Nitya Tamboli",
@@ -205,6 +227,7 @@ cooks_data = [
   },
   {
     "ratings": 5,
+    "img" : "/images/cuisines/6.jpg",
     "cuisine": "rajasthani",
     "capacity": 4,
     "name": "Chanda Mullur",
@@ -212,6 +235,7 @@ cooks_data = [
   },
   {
     "ratings": 1,
+    "img" : "/images/cuisines/7.jpg",
     "cuisine": "gujrati",
     "capacity": 0,
     "name": "Shyama Vemulakonda",
@@ -219,6 +243,7 @@ cooks_data = [
   },
   {
     "ratings": 5,
+    "img" : "/images/cuisines/8.jpg",
     "cuisine": "bengali",
     "capacity": 3,
     "name": "Padma Narang",
@@ -226,6 +251,7 @@ cooks_data = [
   },
   {
     "ratings": 1,
+    "img" : "/images/cuisines/9.jpg",
     "cuisine": "gujrati",
     "capacity": 3,
     "name": "Sushila Joshi",
@@ -233,6 +259,7 @@ cooks_data = [
   },
   {
     "ratings": 2,
+    "img" : "/images/cuisines/10.jpg",
     "cuisine": "rajasthani",
     "capacity": 0,
     "name": "Shashi Kaur",
@@ -240,6 +267,7 @@ cooks_data = [
   },
   {
     "ratings": 2,
+    "img" : "/images/cuisines/11.jpg",
     "cuisine": "punjabi",
     "capacity": 4,
     "name": "Swarna Kulkarni",

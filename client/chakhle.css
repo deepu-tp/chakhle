@@ -23,11 +23,16 @@ h2{
 	background: white;
 	overflow: hidden;
 } 
-.cuisines .cuisine h4, .cooks .cook h4{
+.cuisines .cuisine h4, .cooks .cook h3{
 	margin-top: -50px;
 	background: rgba(0,0,0,0.7);
-	position: absolute;
+	position: absolute; 
 	padding: 10px;
+}
+.cooks .cook form{
+	position: absolute;
+	margin-top: -70px;
+	right: 30px;
 }
 
 .cuisines .cuisine:hover img, .cuisines .cuisine:hover img{

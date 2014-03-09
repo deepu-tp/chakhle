@@ -4,6 +4,14 @@
         <div class="cooks">
             {{#each cooks}}
                 {{> cook}}
+
+            {{else}}
+            <div class="col-md-8">
+                <div class="sorry-message">
+                        
+                    We're sorry but there are no more meals available. Come back tomorrow... Chakhle!!
+                </div>
+            </div>
             {{/each}}
         </div>
     </div>

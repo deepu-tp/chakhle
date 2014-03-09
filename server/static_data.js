@@ -2,54 +2,54 @@ cuisines_data = [
     {
         'name' : 'Gujrati',
         'code' : 'gujrati',
-        'img' : 'images/generic_cuisine.jpg'
-    },
+        'img' : 'images/cuisines/1.jpg'
+    }, 
 
 
     {
         'name' : 'Punjabi',
         'code' : 'punjabi',
-        'img' : 'images/generic_cuisine.jpg'
+        'img' : 'images/cuisines/2.jpg'
     },
 
 
     {
         'name' : 'Malabar',
         'code' : 'malabar',
-        'img' : 'images/generic_cuisine.jpg'
+        'img' : 'images/cuisines/3.jpg'
     },
 
 
     {
         'name' : 'Rajasthani',
         'code' : 'rajasthani',
-        'img' : 'images/generic_cuisine.jpg'
+        'img' : 'images/cuisines/4.jpg'
     },
 
 
     {
         'name' : 'Hyderabadi',
         'code' : 'hyderabadi',
-        'img' : 'images/generic_cuisine.jpg'
+        'img' : 'images/cuisines/5.jpg'
     },
 
     {
         'name' : 'Bengali',
         'code' : 'bengali',
-        'img' : 'images/generic_cuisine.jpg'
+        'img' : 'images/cuisines/6.jpg'
     },
 
 
     {
         'name' : 'Kashmiri',
         'code' : 'kashmiri',
-        'img' : 'images/generic_cuisine.jpg'
+        'img' : 'images/cuisines/7.jpg'
     },
 
     {
         'name' : 'Goan', 
         'code' : 'goan',
-        'img' : 'images/generic_cuisine.jpg'
+        'img' : 'images/cuisines/8.jpg'
     }
 
 ] 

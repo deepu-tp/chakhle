@@ -1,0 +1,60 @@
+<template name="cookLayout">
+    <aside>
+        {{yield 'navbar'}}
+    </aside>
+
+    <div>
+        {{yield}}
+    </div>
+
+    <footer>
+        {{yield 'footer'}}
+    </footer>
+
+</template>
+
+
+<template name="ordersList">
+    <h2>Orders - {{name}}</h2>
+
+    <form id="update_capacity">
+        Remaining Capacity : <input type=number min="1" step="1" value="{{cook_capacity}}">    
+        <input type="submit" value="Update Capcity">
+    </form>
+    </form>
+    <table class="table table-condensed table-hover table-striped">
+        <thead>
+            <tr>
+                <th>Order Id</th>
+                <th>Quanitty</th>
+                <th>Meal</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {{#each orders}}
+                <tr>
+                    {{> order}}
+                </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</template>
+
+
+<template name="order">
+    <td>{{_id}}</td>
+    <td>{{quantity}}</td>
+    <td>Lunch - Veg</td>
+    <td>
+        
+        <select id={{_id}} class="status_select">
+            <option id="ordered">Ordered</option>
+            <option id="confirmed">Confirmed</option>
+            <option id="shipped">Shipped</option>
+        </select>
+
+
+    </td>
+</template>

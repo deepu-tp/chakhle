@@ -1,0 +1,26 @@
+<template name="browseCooks">
+    <h2>Cooks</h2>
+    <div class="row">
+        <div class="cooks">
+            {{#each cooks}}
+                {{> cook}}
+            {{/each}}
+        </div>
+    </div>
+</template>
+
+<template name="cook">
+    <div class="col-md-4">
+        <div class="cook">
+            <img src="/images/generic_dish.png" class="img-responsive">
+            <h3>{{name}}</h3>
+            <div class="rateit" data-rateit-value="{{ratings}}" data-rateit-readonly="true"></div>
+            <h5>Remaining : {{capacity}}</h5>
+            
+            <form>
+                Quantity <input type=number min="1" max="{{capacity}}" step="1" value="1">
+                <input type='submit' value="Order Now">
+            </form>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,42 @@
+<template name="userLayout">
+    <aside>
+        {{yield 'navbar'}}
+    </aside>
+
+    <div class="container">
+        {{yield}}
+    </div>
+
+    <footer>
+        {{yield 'footer'}}
+    </footer>
+</template>
+
+<template name="browseCuisines">
+    <h2>Cuisines</h2>
+    <div class="row">
+        <div class="cuisines">
+            {{#each cuisines}}
+                {{> cuisine}}
+            {{/each}}
+        <div class="col-md-4">
+            <div class="cuisine">
+                <img src="/images/generic_cuisine.jpg" class="img-responsive cuisine-img">
+                <h4 class="cuisine-title">More ...</h4>
+            </div>
+        </div>
+
+        </div>
+    </div>
+</template>
+
+<template name="cuisine">
+    <div class="col-md-4">
+        <div class="cuisine">
+            <a href="/{{code}}">
+                <img src="{{img}}" class="img-responsive cuisine-img">
+            </a>
+            <h4 class="cuisine-title">{{name}}</h4>
+        </div>
+    </div>
+</template>

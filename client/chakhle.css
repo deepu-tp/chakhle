@@ -1,1 +1,18 @@
-/* CSS declarations go here */
+body{
+	background: #f7f655;
+	font-family: ""
+	font-weight:lighter;
+	font-family: "Open Sans"
+}
+h2{
+	font-size: 30px;
+}
+.cuisines .cuisine img, .cooks .cook img{
+	border: 2px solid #aaa;
+}
+.cuisines .cuisine, .cooks .cook{
+	margin-bottom: 30px;
+}
+.cuisines .cuisine:hover img, .cuisines .cuisine:hover img{
+	border-color: white;
+}

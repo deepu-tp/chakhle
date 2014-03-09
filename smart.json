@@ -1,8 +1,9 @@
 {
   "packages": {
-    "iron-router": {},
     "bootstrap-3": {},
     "jquery-masonry": {},
-    "jquery-rateit": {}
+    "jquery-rateit": {},
+    "iron-router": {},
+    "router": {}
   }
 }

@@ -6,6 +6,6 @@
 standard-app-packages
 insecure
 preserve-inputs
-iron-router
 bootstrap-3
 jquery-rateit
+iron-router
